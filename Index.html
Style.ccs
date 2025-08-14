@@ -1,0 +1,83 @@
+
+ `index.html` File
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solution Copilot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Solution Copilot</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Code. Create. Conquer.</h2>
+    <p>Welcome to the digital space of Hamed Wariz Adeyemi.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Solution Copilot. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
+
+ `style.css` File
+```css
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #1b263b, #415a77);
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e0e1dd;
+  color: #1b263b;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+```
